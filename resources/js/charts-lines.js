@@ -69,7 +69,7 @@ const lineConfig = {
 }
 
 
-if (document.getElementById('lines')) {
+if (document.getElementById('line')) {
   const lineCtx = document.getElementById('line')
   window.myLine = new Chart(lineCtx, lineConfig)
 }
